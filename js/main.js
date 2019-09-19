@@ -1,4 +1,4 @@
-const SELECTED_FRUIT = "banana";
+const SELECTED_FRUIT = "Apple";
 const WORD_TO_PREPEND = "Only";
 
 function isEquals(first, second) {
@@ -36,7 +36,7 @@ function appendTo(containerName, element) {
   return selectedContainer.appendChild(element);
 }
 
-const fruits = ["apple", "banana", "orange", "melon"];
+const fruits = ["Banana", "Apple", "Orange", "Lemon"];
 
 fruits.forEach(fruit => {
   if (isEquals(fruit, SELECTED_FRUIT)) {
